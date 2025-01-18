@@ -1,4 +1,3 @@
-// Initialize an empty array to hold movies
 let movies = [];
 
 // Function to save movies to localStorage
