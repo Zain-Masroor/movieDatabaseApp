@@ -140,7 +140,7 @@ function searchMovies() {
   }
 }
 
-// Add event listeners for search inputs
+
 document.getElementById('searchName').addEventListener('input', function() {
   searchMovies();
 });
