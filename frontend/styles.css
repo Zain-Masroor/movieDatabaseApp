@@ -64,10 +64,11 @@ h1 {
 
 .delete-btn {
   background-color: #ff4747;
+  font-weight: 550;
   color: white;
   border: none;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 18px;
+  border-radius: 30px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -89,7 +90,7 @@ button:hover {
   background-color: #45a049;
 }
 
-input[type="text"], input[type="number"] {
+input[type="text"], input[type="number"], input[type="url"] {
   padding: 10px;
   margin: 10px 0;
   border: 2px solid #ddd;
@@ -98,7 +99,7 @@ input[type="text"], input[type="number"] {
   box-sizing: border-box;
 }
 
-input[type="text"]:focus, input[type="number"]:focus {
+input[type="text"]:focus, input[type="number"]:focus, input[type="url"]:focus {
   border-color: #4CAF50;
 }
 
@@ -110,4 +111,18 @@ input[type="text"]:focus, input[type="number"]:focus {
 
 #searchGenre {
   margin-right: 0;
+}
+
+.watch-btn {
+  display: inline-block;
+  background-color: #4CAF50;
+  font-weight: 550;
+  color: white;
+  padding: 15px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.watch-btn:hover {
+  background-color: #45a049;
 }
